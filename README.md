@@ -3,9 +3,6 @@ Tools, programs, and scripts related to research for the merchant Datini.
 
 The targeted data for most of these utils are currently not being shared.
 
-Currently, no license is being given because this code in for an undisclosed
-set of data.
-
 This project is in affiliation with the Digital History Class
 at Marlboro College, VT.
 
