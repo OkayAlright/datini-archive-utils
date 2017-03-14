@@ -1,0 +1,23 @@
+job1{
+    stage 1
+    raw = load test.csv
+    goal = exact-filter raw ID 1
+    write-out result.csv goal
+    quit
+}
+
+job2{
+    stage 1
+    raw = load test.csv
+    goal = contained-filter raw name e
+    write-out result2.csv goal
+    quit
+}
+
+job2{
+    stage 2
+    raw = load test.csv
+    goal = exact-filter raw name em
+    write-out result3.csv goal
+    quit
+}
